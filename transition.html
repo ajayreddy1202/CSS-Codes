@@ -1,0 +1,117 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: limegreen;
+            border: 1px pink;
+        }
+        .box:hover{
+            height: 450px;
+            width: 450px;
+            background-color: aqua;
+            border: 10px black solid;
+
+            transition-property: height;
+            transition-property: width;
+            transition-property: background-color;
+            transition-property: border;
+            transition-property: height,width;
+            transition-property: all;
+            transition-duration: 3500ms;
+            transition-timing-function: ease;
+            transition-delay: 2s;
+
+
+            transition: all 3s ease-in;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15%;
+            height: 100vh;
+            width: 100%;
+
+        }
+        h1{
+            display: inline;
+            justify-content: center;
+            font-size: 10rem;
+            text-transform: uppercase;
+
+        }
+        h1:hover{
+            -webkit-text-stroke: 2px purple;
+            color: black;
+            transition: all is ease;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .main:has(h1) :hover{
+            background-color: black;
+            padding: 100% 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>AJAY</h1>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
