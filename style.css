@@ -1,0 +1,15 @@
+h1{
+    color: aqua;
+    background-color: black;
+}
+p{
+    color: red;
+    background-color: yellow;
+    font-family: monospace;
+}
+img{
+    height: 400px;
+    width: 500px;
+    border: 5px dotted darkgreen;
+    border-radius: 25px;
+}
