@@ -1,0 +1,262 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Screen Skeleton</title>
+  <style>
+    body{margin:0;background:#f0f0f0}
+    .card{
+      width:100%;height:100vh;       /* full screen */
+      background:#fff;padding:20px;box-sizing:border-box;
+    }
+    .box{background:#ccc;border-radius:6px;margin:15px }
+    .banner{height:25vh}             /* top rectangle */
+    .profile{display:flex;align-items:center;gap:15px;margin-top:20px}
+    .avatar{width:80px;height:80px;border-radius:50%;background:#bbb}
+    .line{height:30px;flex:1}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="box banner"></div>
+
+    <div class="profile">
+      <div class="avatar"></div>
+      <div style="flex:1">
+        <div class="box line" style="width:60%"></div>
+        <div class="box line" style="width:80%"></div>
+        <div class="box line" style="width:40%"></div>
+      </div>
+    </div>
+
+    <div class="box line" style="width:95% "></div>
+    <div class="box line" style="width:70%"></div>
+    <div class="box line" style="width:90%"></div>
+  </div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+    }
+    .main{
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      /* flex-direction: column; */
+
+    }
+    .ball{
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+      background:linear-gradient(black,white,red);
+      animation: bounce 1s ease-in-out infinite alternate;
+    }
+    @keyframes bounce{
+      from{
+        transform: translateY(-150px);
+
+      }
+      to{
+        transform: translateY(603px);
+      }
+    }
+    .ball:nth-child(2){
+      animation-delay: 100ms;
+    }
+    .ball:nth-child(3){
+      animation-delay: 200ms;
+    }
+    .ball:nth-child(4){
+      animation-delay: 300ms;
+    }
+    .ball:nth-child(5){
+      animation-delay: 400ms;
+    }
+    .ball:nth-child(6){
+      animation-delay: 500ms;
+    }
+    .ball:nth-child(7){
+      animation-delay: 600ms;
+    }
+    .ball:nth-child(8){
+      animation-delay: 700ms;
+    }
+    .ball:nth-child(9){
+      animation-delay: 800ms;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="bounce"></div>
+  </div>
+
+</body>
+</html> --> 
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    section{
+      height: 100vh;
+      width: 100%;
+      background-color: black;
+    }
+    .box{
+      height: 100px;
+      width: 100px;
+      background-color: blueviolet;
+      /* border-radius: 110% 0% ; */
+      margin: auto;
+      animation: move 4s linear infinite;
+      position: relative;
+    }
+    @keyframes move{
+      0%,100%{
+        top: 0;
+        right: 0;
+      }
+      25%{
+        top: 333px;
+        right: 333px;
+        transform: rotate(90deg);
+      }
+      50%{
+        top: 666px;
+        right: 0;
+        transform: rotate(180deg) rotateX(90deg);
+      }
+      75%{
+        top: 333px;
+        right: -333px;
+        transform: rotate(90deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="box"></div>
+  </section>
+</body>
+</html> -->
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    img{
+      display: block;
+      height: 120px;
+      animation: race 4s alternate;
+      position: relative;
+    }
+    @keyframes race{
+      from{
+        left: 0;
+      }
+      to{
+        right: 92.5%;
+      }
+    }
+    img:nth-child(1){
+        animation-timing-function:ease;
+      }
+    img:nth-child(2){
+        animation-timing-function:ease;
+      }
+    img:nth-child(3){
+        animation-timing-function:ease;
+      }
+    img:nth-child(4){
+        animation-timing-function:ease;
+      }
+    img:nth-child(5){
+        animation-timing-function:ease;
+      }
+    img:nth-child(6){
+        animation-timing-function:ease;
+      }
+  </style>
+</head>
+<body>
+  <img src="c:\Users\ajay_reddy_bhumana\OneDrive\Pictures\upsc1.jpg">
+  <img src="c:\Users\ajay_reddy_bhumana\OneDrive\Pictures\upsc1.jpg">
+  <img src="c:\Users\ajay_reddy_bhumana\OneDrive\Pictures\upsc1.jpg">
+  <img src="c:\Users\ajay_reddy_bhumana\OneDrive\Pictures\upsc1.jpg">
+  <img src="c:\Users\ajay_reddy_bhumana\OneDrive\Pictures\upsc1.jpg">
+  <img src="c:\Users\ajay_reddy_bhumana\OneDrive\Pictures\upsc1.jpg">
+  
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
