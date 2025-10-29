@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* a{
+            font-size: 3rem;
+            text-decoration: none;
+            line-height: 60px;
+        }
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: green;
+        }
+        a:active{
+            color: blueviolet;
+        }
+        a:hover{
+            color: beige;
+            font-size: 5rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 4px  4px 5px greenyellow;
+            -webkit-text-stroke: 0.5px lightgray;
+        }
+        button{
+            margin:10% 0% 0% 30% ;
+            height: 65px;
+            width: 350px;
+            border: none;
+            font-size: 1.3rem;
+            background: linear-gradient(30deg,rgb(153, 0, 255));
+            color: white;
+            border-radius: 15px;
+            outline: rgba(255, 255, 255, 0.721) 3px solid;
+            outline-offset: -12px;
+            transition: all 0.3s ease-in-out;
+        }
+        button:hover{
+            outline: red 3px solid;
+            outline-offset: 8px;
+
+        }
+        button:active{
+            transform: scale(0.8);
+            
+        }
+        input{
+            height: 60px;
+            width: 60px;
+            margin: 5% 0% 0% 30%;
+            border-radius: 100px;
+            border: 1px black solid;
+            transition: all 1s ease-in;
+        }
+        input:focus{
+            border: 1px lime solid;
+            outline: none;
+            width: 500px;
+        }
+        .main>h1:first-child{
+            color: violet;
+        }
+        .main>h1:last-child{
+            color: aqua;
+            font-family: monospace;
+        } */
+         /* p{
+            color: black;
+         }
+         :not(p){
+            color: violet;
+         } */
+          /* .images{
+            width: 500px;
+            
+          }
+          .images:has(img){
+            background-color: aqua;
+            box-shadow: 0px 0px 10px 5px lightgreen inset ;
+          } */
+           :root{
+            /* creating variable */
+            --primary-font-size:4rem;
+            --secondary-font-size:2rem;
+            --primary-text-color:rgb(126, 128, 0);
+            --secondary-text-color:orange;
+            --font-stack: tahoma;
+
+           }
+           h1{
+            color:var(--primary-text-color);
+            font-size: var(--primary-font-size);
+           }
+           p{
+            color: var(--secondary-text-color);
+            font-family: var(--font-stack);
+            font-size: var(--secondary-font-size);
+           }
+           input[type="checkbox"]:checked{
+            accent-color:lime;
+            height:15px;
+            width: 15px;
+           }
+           input[type="checkbox"]:checked +label{
+               color: magenta;
+               font-size: 2rem;
+           }
+    </style>
+</head>
+<body>
+    <!-- <a href="http://www.Google.com">Google</a><br>
+    <a href="http://www.Facebook.com">Facebook</a><br>
+    <a href="http://www.Instagram.com">Instagram</a><br>
+    <a href="http://www.GitHub.com">GitHub</a><br>
+    <a href="http://www.LinkedIn.com">LinkedIn</a><br>
+    <a href="http://www.Snapchat.com">Snapchat</a><br>
+    <a href="http://www.WhatsAp.com">WhatsApp</a> -->
+
+   <!-- <button>Click</button>
+   <hr>
+   <input type="text" name="" id=""> -->
+
+
+   <!-- <div class="main">
+   <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id repellendus odit illo, cumque beatae perferendis sed vero accusantium quibusdam reprehenderit dolorem modi ea. Soluta praesentium quas expedita sequi eveniet facilis!</h1>
+   <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni dolores libero harum nostrum? Assumenda necessitatibus doloribus, tenetur fuga cupiditate repellendus, atque repudiandae fugit unde minus accusamus debitis architecto saepe quisquam.</h1>
+   <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus maxime quia temporibus accusamus omnis sapiente delectus velit cumque iure, earum id nisi blanditiis esse nesciunt obcaecati totam quibusdam qui nostrum?</h1>
+   <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt obcaecati a iste reprehenderit ipsa dignissimos unde quas eligendi. Autem aut explicabo nemo, illum numquam nobis ullam minus placeat aliquid suscipit!</h1>
+   <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nisi. Placeat sapiente, in dolor velit ipsa fugiat possimus maiores animi laudantium id fugit cupiditate recusandae? Odit voluptatem quo nulla sit?</h1>
+   <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste minima illo ab eos ad, minus incidunt ipsum possimus, modi molestiae qui obcaecati officiis nihil, soluta nulla corrupti tempora. Aperiam, saepe!</h1>
+   <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci consequatur temporibus esse distinctio, voluptates optio facere aliquam ipsum odit eligendi eius nihil quasi ipsam voluptatum qui! Veritatis, ab illo!</h1>
+   <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur officia ipsum, magnam nemo doloribus, laborum qui repellat nostrum iure atque exercitationem voluptatem ex ut temporibus quaerat sequi, mollitia placeat suscipit!</h1>
+   <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus magnam vero ad rerum culpa nisi esse a eveniet dolor corrupti, fugiat quasi, omnis, hic aliquam deserunt voluptatem repellendus reiciendis delectus.</h1>
+   <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nemo repudiandae, voluptates ex dignissimos natus neque. Minus ipsum, excepturi, explicabo illo consectetur distinctio doloremque possimus aspernatur fuga nobis, ab aperiam.</h1>
+   </div> -->
+
+   <!-- <div>Lorem ipsum dolor sit amet.</div>
+   <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, voluptatum.</h1>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+   <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores fuga molestias soluta.</span> -->
+<!-- 
+   <div class="image">
+    <img src="c:\Users\ajay_reddy_bhumana\OneDrive\Pictures\ajay.jpg" alt="">
+   </div> -->
+   <div class="image">
+    <h1>This is Ajay</h1>
+   </div>
+   <h2>This is element</h2>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, inventore.</p>
+   <hr>
+   <p>Select your Skills</p>
+   <input type="checkbox" name="" id="HTML"><labled for="html">HTML</labled>
+   <input type="checkbox" name="" id="CSS"><labled for="css">CSS</labled>
+   <input type="checkbox" name="" id="JAVASCRIPT"><labled for="javascript">JAVASCRIPT</labled>
+   <input type="checkbox" name="" id="REACT"><labled for="html">REACT</labled>
+
+</body>
+</html>
