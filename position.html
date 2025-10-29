@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        .main{
+            height: 80vh;
+            width: 80%;
+            display: flex;
+            background-color: white;
+            gap: 30px;
+        }
+        .main>div{
+            height: 200px;
+            width: 200px;
+            border:black 1px;
+            place-items: center;
+            font-size: 2rem;
+            /* animation: load 2s ease infinite alternate; */
+        }
+        .item1{
+            background-color: red;
+            animation: move1 8s linear infinite;
+            position: fixed;
+        }
+        .item2{
+            background-color: yellow;
+            animation: move2 8s linear infinite;
+            position: absolute;
+            top: 0;
+            right: 0;
+            /* position: relative;
+            top: 400px;
+            left: 200px; */
+
+        }
+        .item3{
+            background-color: orange;
+            animation: move3 8s linear infinite;
+            position: absolute;
+            /* top: 200px;
+            left: 300px; */
+
+            top: 0;
+            right: 0;
+
+            /* right: 0;
+            bottom: 0; */
+
+            /* left: 0;
+            bottom: 0; */
+
+            /* top: 50%;
+            left: 50%; */
+
+            /* transform: translate(-50%,-50%); */
+
+        }
+        .item4{
+            background-color: skyblue;
+            animation: move4 8s linear infinite;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            position: sticky;
+            top: 200px;
+        }
+        .two{
+          background-color: aqua;
+        }
+        .three{
+          background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+    </div>
+    <div class="main two"></div>
+    <div class="main three"></div>
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clockwise Moving Boxes</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f9f9f9;
+    }
+
+    .square {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      border: 2px dashed #000;
+    }
+
+    .box {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background: skyblue;
+      border: 2px solid #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    /* Clockwise Animation */
+    .box1 {
+      animation: move1 8s linear infinite;
+    }
+    .box2 {
+      animation: move2 8s linear infinite;
+    }
+    .box3 {
+      animation: move3 8s linear infinite;
+    }
+    .box4 {
+      animation: move4 8s linear infinite;
+    }
+
+    @keyframes move1 {
+      0%   { top: 0; left: 0; }
+      25%  { top: 0; left: 260px; }
+      50%  { top: 260px; left: 260px; }
+      75%  { top: 260px; left: 0; }
+      100% { top: 0; left: 0; }
+    }
+
+    @keyframes move2 {
+      0%   { top: 0; left: 260px; }
+      25%  { top: 260px; left: 260px; }
+      50%  { top: 260px; left: 0; }
+      75%  { top: 0; left: 0; }
+      100% { top: 0; left: 260px; }
+    }
+
+    @keyframes move3 {
+      0%   { top: 260px; left: 260px; }
+      25%  { top: 260px; left: 0; }
+      50%  { top: 0; left: 0; }
+      75%  { top: 0; left: 260px; }
+      100% { top: 260px; left: 260px; }
+    }
+
+    @keyframes move4 {
+      0%   { top: 260px; left: 0; }
+      25%  { top: 0; left: 0; }
+      50%  { top: 0; left: 260px; }
+      75%  { top: 260px; left: 260px; }
+      100% { top: 260px; left: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="square">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+  </div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
