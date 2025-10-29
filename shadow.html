@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: yellow;
+        }
+        div{
+            height: 350px;
+            width: 350px;
+            margin: auto;
+            margin-top: 10%;
+        }
+        .outer-shadow{
+            box-shadow: 10px 10px 100px black;
+            background-color: white;
+        }
+        .inner-shadow{
+            box-shadow:0px 0px 10px 20px rgba(119, 10, 10, 0.626) inset;
+            border-radius: 20px;
+        }
+        .mixed-shadow{
+            box-shadow: 20px 20px 10px magenta,-20px -20px 10px lime, -40px -40px 15px rgb(86, 6, 86),40px 40px 15px lime;
+        }
+        .image-shadow{
+            height: fit-content;
+            width: fit-content;
+        }
+        img{
+           filter: drop-shadow(10px 10px 10px orange);
+        }
+        .text-shadow{
+            font-size: 9rem;
+            text-align: center;
+            color: white;
+            text-shadow: 5px 4px 7px black;
+        }
+        span{
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-shadow"></div>
+    <div class="inner-shadow"></div>
+    <div class="mixed-shadow"></div>
+    <div class="mixed-shadow">
+        <img src="c:\Users\ajay_reddy_bhumana\OneDrive\Pictures\upsc1.jpg" alt="" height="350px" width="350">
+    </div>
+    <h1 class="text-shadow">
+        <span>Py</span>spiders BTM
+
+    </h1>
+    
+</body>
+</html>
