@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        section{
+            width: 100%;
+            height: 300vh;
+            display: grid;
+            grid-template-columns: 1fr 2fr 2fr;
+            grid-template-rows: 70px 4fr 2fr;
+            grid-template-areas: "head head head"
+                                 "side content content"
+                                 "bottom bottom bottom";
+        }
+        nav{
+            background-color: blueviolet;
+            grid-area: head;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            a{
+                font-size: 1.3rem;
+                text-decoration: none;
+                color: aliceblue;
+            }
+        }
+        aside{
+            background-color: brown;
+            grid-area: side;
+        }
+        article{
+            background-color: green;
+            grid-area: content;
+        }
+        footer{
+            background-color: yellow;
+            grid-area: bottom;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <nav>
+            <a href="##">link1</a>
+            <a href="##">link2</a>
+            <a href="##">link3</a>
+            <a href="##">link4</a>
+            <a href="##">link5</a>
+            <a href="##">link6</a>
+            <a href="##">link7</a>
+            <a href="##">link8</a>
+        </nav>
+        <aside></aside>
+        <article></article>
+        <footer></footer>
+    </section>
+    
+</body>
+</html>
+
+
