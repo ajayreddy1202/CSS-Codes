@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 5rem;
+            text-align: center;
+        }
+        h1::first-letter{
+            text-transform: uppercase;
+            color: brown;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 7rem;
+        }
+        p::first-line{
+            color: blue;
+            font-size: 2rem;
+        }
+        h2{
+            font-size: 8rem;
+            text-align: center;
+        }
+        h2::before{
+            content: "Py";
+            color: orange;
+            font-size: 8rem;
+        }
+        h2::after{
+            content:"👨‍🎓";
+        }
+        ::selection{
+            background-color: rgb(217, 43, 226);
+            color: yellow;
+        }
+        li::marker{
+            content: "😜";
+            color: aqua;
+            letter-spacing: 10px;
+            font-size: 2rem;
+        }
+        input{
+            height: 50px;
+            width: 450px;
+            font-size: 1.5rem;
+        }
+        input::placeholder{
+            color: brown;
+            opacity: 0.4;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>pyspiders</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sapiente aperiam aliquam, molestiae velit nulla laborum id quae quod blanditiis eius asperiores, cumque atque minus nam ducimus debitis quos similique rerum maiores. Molestias libero voluptatibus nostrum maxime distinctio, officiis quibusdam reiciendis necessitatibus itaque ducimus dolorum voluptates unde beatae hic aperiam!</p>
+    <hr>
+    <h2>spiders</h2>
+    <hr>
+    <ul>
+        <li>ajay</li>
+        <li>kishor</li>
+        <li>chintu</li>
+        <li>venkatesh</li>
+        <li>mohan</li>
+        <li>shoke</li>
+        <li>anil</li>
+    </ul>
+    <hr>
+    <input type="text" placeholder="Enter your name">
+
+</body>
+</html>
