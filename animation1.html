@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .loader{
+            height: 50px;
+            width: 100%;
+            background: linear-gradient(black,white,black);
+            /* border: 0.5px lightgray solid; */
+            margin-top: 10%;
+            border-radius: 100px;
+
+            /* animation-name: load;
+            animation-duration: 4s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-direction: reverse;
+            animation-direction: alternate;
+            animation-delay: 2s; */
+
+            /* animation-fill-mode: backwards;
+            animation-fill-mode: forwards; */
+            animation: load 2s ease infinite alternate;
+        }
+        .loader:hover{
+            animation-play-state: paused;
+        }
+        @keyframes load{
+            from{
+                width:0%;
+            }
+            to{
+                width: 100%;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+    
+</body>
+</html>
